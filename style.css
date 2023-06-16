@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner-heading {
+    background-image: linear-gradient(to bottom, lightgreen, rgb(38, 133, 0));
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+  .banner-heading h1 {
+    color: rgb(255, 255, 255); /* Text color */
+    font-size: 36px; /* Font size of the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for visual effect */
+  }
+h3{
+   font-weight: 100;
+      color: black;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+        background-color: #ffffff; /* Blue background color */
+        
+      
+      
+}
+.colored-box {
+        background: linear-gradient(to bottom, #e6e6e6, #f9f9f9); /* Gradient background */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: rgb(11, 14, 17);
+    width: 500px;
+    height: 120px;
+    background-color: #5c53dd; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,+10% );
+  }
+  .styled-button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+  }
+  .fonty{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(83, 83, 15);
+    transform: translate(25%, 5%);
+  }
+  .site-footer {
+    background-color: #9babc0; /* Background color of the footer */
+    padding: 10px; /* Add padding to the footer */
+    text-align: center; /* Center align the content */
+    font-size: 14px; /* Font size of the text */
+    transform: translate(-0%,50%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .paragraph {
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .styled-button2 {
+    background: linear-gradient(to bottom, #ff8800, #ffbb33);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .styled-button2:hover {
+    background: linear-gradient(to bottom, #ffbb33, #ff8800);
+  }
+  .Members {
+     margin-top: 20px;
+     background: linear-gradient(135deg, #a2db00, #0b6623);
+    color: #ffffff;
+    align-items: center;
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    box-shadow: 20px 3px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40%;
+  }
+  .topa{
+    font-size: medium;
+    font-weight: bold;
+  }

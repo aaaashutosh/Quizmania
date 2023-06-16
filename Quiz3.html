@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Hamro Sawal</title>
+    <link rel="shortcut icon" href="qzlogo.png" type="png">
+		<link type='text/css' rel='stylesheet' href='stylesheet.css'/>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+	</head>
+	<body>
+        <style>
+            body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #f5e9cc;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.menu {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+.menu.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+menu {
+    position: relative;
+    float:right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #1E90FF;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+.letter{
+    font-size: small;
+    font-weight: normal;
+    color: #000000;
+}
+
+.buttonstyle {
+ font-family: Roboto, Arial, Sans-Serif;
+ font-size: 14px;
+ text-align: center;
+ letter-spacing: 0.5px;
+ color: #ffffff;
+ background-color: #065fd4;
+ border: 0;
+ box-shadow: none;
+ border-radius: 2px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 16px;
+ padding-right: 16px;
+ text-transform: uppercase;
+ font-weight: 500;
+}
+.TxtEffect {
+  letter-spacing: .2rem;
+  font-size: 17px;
+  color: #f1efe9;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 0px 0px 0 rgb(227,165,0), 1px 1px 0 rgb(198,136,0), 2px 2px 0 rgb(170,108,0), 3px 3px 0 rgb(142,80,0), 4px 4px 3px rgba(0,0,0,0.63), 4px 4px 1px rgba(0,0,0,0.5), 0px 0px 3px rgba(0,0,0,.2);
+}
+        </style>
+       
+		<div id='container'>
+			<div id='title'>
+        <h3>Phase 3:</h3>
+				<h1>MCQ <span style="background-color: red;">Questions</span> </h1>
+			</div>
+   			<br/>
+  			<div id='quiz'></div>
+    		<div class='menu' id='next' onclick="page4()"><a href='#'>Next</a></div>
+    		<div class='menu' id='next' onclick="page2()"><a href='#'>Prev</a></div>
+    		<div class='menu' id='start'> <a href='#'>Start Over</a></div>
+    		
+    	 <div class="result d-none">
+    <p class="TxtEffect ">You Scored  <span style="font-weight: bold;">0%</span></p>
+  </div>
+
+<form class="quiz">
+    <ol class="letter"><li>Which of the following higher education institution was establish first 
+        in Nepal?
+           <br>
+           <input type="radio" name="q3" value="a">Trichandra College <br>
+           <input type="radio" name="q3" value="b">Padma Kanya College
+    <br>
+           <input type="radio" name="q3" value="c">National College <br>
+           <input type="radio" name="q3" value="d">Durbar Colleged teacher
+        </li>
+        <li>. “Horse riding does not have any effect in driving a motorbike.” 
+            Which type of transfer of learning is this?            
+           <br>
+           <input type="radio" name="q4" value="a">Positive transfer   <br>
+           <input type="radio" name="q4" value="b"> Negative transfer
+ <br>
+           <input type="radio" name="q4" value="c">Zero transfer
+           <br>
+           <input type="radio" name="q4" value="d">Formal transfer</li>
+        <li>Which of the following factor/s affect/s individual differences of a 
+            child?
+           <br>
+           <input type="radio" name="q5" value="a">Heredity factor      <br>
+           <input type="radio" name="q5" value="b">Environmental factor<br>
+           <input type="radio" name="q5" value="c">Heredity and environmental factor    <br>
+           <input type="radio" name="q5" value="d">Emotional factor      </li>
+        <li>Which organization is responsible for training of manpower or school 
+            teachers in education          <br>
+           <input type="radio" name="q6" value="a"> Higher Secondary Education Board (HSEB)<br>
+           <input type="radio" name="q6" value="b">Department of Education (DOE) <br>
+           <input type="radio" name="q6" value="c">National Centre for Educational Development (NCED)
+           <br>
+           <input type="radio" name="q6" value="d">Curriculum Development Centre (CDC)      </li>
+        <li>Which one of the following is the lowest level of cognitive domain 
+            according to Bloom’s Taxonomy of educational objectives?
+           <br>
+           <input type="radio" name="q1" value="a">Comprehension<br>
+           <input type="radio" name="q1" value="b">Analysis <br>
+           <input type="radio" name="q1" value="c">Knowledge   <br>
+           <input type="radio" name="q1" value="d"> Evaluation       </li> 
+        <li>Which of the following evaluation tool is used to evaluate student’s 
+            performance in any event?
+           <br>
+           <input type="radio" name="q2" value="a">Rating scale  <br>
+           <input type="radio" name="q2" value="b">Check list
+
+   <br>
+           <input type="radio" name="q2" value="c">Questionnaire<br>
+           <input type="radio" name="q2" value="d">Anecdotal Record</li>
+        
+     
+         
+         <button class="buttonstyle">submit
+            
+          </button>
+    
+
+          
+
+           
+</form>
+<script>const correctAnswers = ['a','a','b','b','d','a'];
+  const form = document.querySelector('.quiz');
+  const result = document.querySelector('.result');
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+  
+    let score = 0;
+    const userAnswers = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value, form.q6.value];
+  
+  
+    //check the answers
+    userAnswers.forEach((answer,index) =>{
+  
+      if(answer === correctAnswers[index]){
+        score+=10;
+      }
+    });
+  
+    scrollTo(0,0);
+    
+      result.classList.remove('d-none');
+    
+  
+  let output = 0;
+  const timer = setInterval(() => {
+    result.querySelector('span').textContent = `${output}%`;
+    if(output === score){
+      clearInterval(timer);
+    } else {
+      output++;
+    }
+  }, 10);
+  
+  
+  });
+  function page2(){
+    window.location.href="Quiz2.html"
+   }
+   function page4(){
+   window.location.href="Quiz4.html"
+   }</script>
+  </div>
+            
+	</body><footer style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">copyright &copy;|SukunaBICTE</footer>
+
+</html>
